@@ -1,0 +1,21 @@
+OS: macOS
+Version: 27.2.1
+Shell account: [redacted]
+
+Disk space on the Data volume (df -h):
+Total: 460Gi Used: 241Gi Available: 195Gi
+
+Selected processes from ps:
+PID   COMMAND
+1 launchd
+704 Finder
+7918 TextEdit
+
+Repository path (pwd):
+/Users/[redacted]/.../digital-detective-8545
+
+Subfolder path (cd mission-03-operating-system && pwd):
+/Users/[redacted]/.../digital-detective-8545/mission-03-operating-system
+
+Owner permission bits (ls -l):
+rw-
