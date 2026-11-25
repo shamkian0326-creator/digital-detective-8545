@@ -15,3 +15,9 @@ Each mission will be documented and committed separately.
 - [6. Git, GitHub, branches and pull requests](mission-06-git-github/README.md)
 - [7. Computer networks](mission-07-networking/README.md)
 - [8. Final review and submission](mission-08-final-report/README.md)
+
+## My Learning
+
+- A saved file persists after the process that created it ends.
+- The same program can display a single integer using digits from different bases.
+- A process identifier points to a running instance of a program.
