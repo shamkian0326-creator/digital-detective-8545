@@ -1,0 +1,57 @@
+$ pwd
+[redacted]/digital-detective-8545/mission-02-terminal
+
+$ cd ..
+$ pwd
+[redacted]/digital-detective-8545
+
+$ mkdir terminal-practice
+
+$ touch notes.txt
+$ cp notes.txt temp.txt
+$ mv temp.txt empty-backup.txt
+
+$ ls
+empty-backup.txt
+notes.txt
+
+$ ls -l
+total 0
+-rw-r--r--@ 1 [redacted] [redacted] 0 Nov 26 02:16 empty-backup.txt
+-rw-r--r--@ 1 [redacted] [redacted] 0 Nov 26 02:16 notes.txt
+
+$ cat notes.txt
+[empty output]
+
+$ cat notes.txt
+Start of the practice note.
+Second line added at the end.
+
+$ cp notes.txt notes-copy.txt
+$ mv notes-copy.txt notes-backup.txt
+
+$ ls
+empty-backup.txt
+notes-backup.txt
+notes.txt
+
+$ ls -lah
+total 16
+drwxr-xr-x@ 6 [redacted] [redacted] 192B Nov 26 02:16 .
+drwxr-xr-x@ 5 [redacted] [redacted] 160B Nov 26 02:16 ..
+-rw-r--r--@ 1 [redacted] [redacted] 0B Nov 26 02:16 .listing-demo
+-rw-r--r--@ 1 [redacted] [redacted] 0B Nov 26 02:16 empty-backup.txt
+-rw-r--r--@ 1 [redacted] [redacted] 58B Nov 26 02:16 notes-backup.txt
+-rw-r--r--@ 1 [redacted] [redacted] 58B Nov 26 02:16 notes.txt
+
+$ ls -l | head -n 3
+total 16
+-rw-r--r--@ 1 [redacted] [redacted] 0 Nov 26 02:16 empty-backup.txt
+-rw-r--r--@ 1 [redacted] [redacted] 58 Nov 26 02:16 notes-backup.txt
+
+$ brew --version
+Homebrew 7.0.12
+
+$ brew list --formula (selected entries)
+git
+python@3.14
