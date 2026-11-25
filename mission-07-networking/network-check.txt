@@ -1,0 +1,6 @@
+HTTPS HEAD to https://example.org/
+HTTP response: 200
+
+Public A records from dig +short example.org A
+172.66.157.237
+104.20.26.136
