@@ -2,7 +2,29 @@
 
 This assignment follows what happens when a computer receives input, runs a program, saves data and communicates over a network. Codex ran the practical demonstrations on this Mac and drafted the notes.
 
-Each mission will be documented and committed separately.
+Each mission was documented, committed and pushed separately.
+
+## Topics covered
+
+- Hardware, software and the path from input to storage
+- Terminal navigation, file changes, processes and permissions
+- Python execution, number bases and character encoding
+- Git collaboration, computer networks, DNS and HTTPS
+
+## Run the converter
+
+Open Terminal at the repository root and run these commands.
+
+```sh
+cd mission-05-numbers-data
+python3 number_converter.py
+```
+
+An input of `31` displays `0b11111` in binary and `0x1f` in hexadecimal.
+
+## Learning summary
+
+The exercises connect what appears on screen with the instructions that run and the bytes that get stored. Examining a process list makes those running programs visible. Number bases give the same value different written forms, while Git gives each saved project revision an identifiable checkpoint.
 
 ## Mission index
 
